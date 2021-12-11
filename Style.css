@@ -1,10 +1,14 @@
+:root {
+  --purple: rgb(177, 118, 200);
+}
+
 body {
   background: rgb(34, 33, 37);
 }
 
 h1 {
   font-family: sans-serif;
-  color: rgb(177, 118, 200);
+  color: var(--purple);
   text-align: center;
 }
 
@@ -15,6 +19,13 @@ p {
   margin-left: 60px;
   margin-right: 60px;
   font-size: 14px;
+  text-align: center;
+}
+
+div {
+  font-family: sans-serif;
+  color: var(--purple);
+  font-weight: bolder;
   text-align: center;
 }
 
