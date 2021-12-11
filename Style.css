@@ -1,25 +1,36 @@
 body {
-  background: #6d7178;
+  background: rgb(34, 33, 37);
 }
 
 h1 {
-  color: #8f6898;
+  font-family: sans-serif;
+  color: rgb(177, 118, 200);
+  text-align: center;
+}
+
+p {
+  color: rgb(230, 230, 230);
+  font-family: sans-serif;
+  margin-bottom: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 14px;
+  text-align: center;
 }
 
 .row {
-    display:flex;
-    flex-direction:row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .column {
-    display:flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .grid {
-    display:grid;
-    width:100%;
-    grid-template-columns:
-    repeat(12, 1fr);
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(12, 1fr);
 }
